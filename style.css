@@ -1,21 +1,15 @@
 @charset "Utf-8";
 
+body {background-color: #323136;}
 
-body {
-
-
-    width: auto;
-    margin-right: -8px;
-
-}
 .containermenusup {
 
 
     width: auto;
     margin: -8px;
     background-color: #4B4952;
-    display: block;
-    
+    height: 60px ;
+ 
 
     
 }
@@ -38,17 +32,6 @@ body {
                 }
 
 
-
-
-
-
-.bxtext {
-   
-    background-color:#b3aec4; 
-   
-        }
-
-
 .botoes:hover {background-color: #797683;}        
 .botoes {
 
@@ -60,3 +43,34 @@ body {
     padding-left: 8%;
     padding-bottom: 2px;
 }
+
+.framc {
+
+    background-color: aqua;
+    margin-top: 2px;
+    
+    width: auto;
+    float: left;
+    background-color: #29282c;
+    border: #1883C4 10px solid;
+    color: white;
+    padding: 25px;
+
+}
+.framc > img {
+    height: 400px; width: 100%; 
+    border-radius: 10px;
+    block-size: 10%;
+    padding-bottom: 30px;
+            }
+
+.framc > h1 {
+    height: 400px; 
+    width: 100%; 
+    text-align: center;
+    font-size: 150px;
+    margin-top: -550px;
+    font-style: italic;
+    font-weight: bold;
+}
+    
