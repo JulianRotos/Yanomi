@@ -10,53 +10,50 @@ body {
 }
 .containermenusup {
 
-    h
-    width: 100%;
+
+    width: auto;
     margin: -8px;
     background-color: #4B4952;
     display: block;
+    
 
     
 }
 
 .imgsup{
+    
     width: 50px;
     height: 50px;
     padding: 0.5px;
-    display: inline-flex;
-    margin-top: 4px;
+    padding-top: 5px;
+    margin-left: -150px;
+ 
 }
 
 
-.boxbotoessup {
-    
-  
-    display: inline-flex;
-    width: 100%; 
-    margin-left: 150px;    
-}
+.boxbotoessup {  
+
+    margin-left: 150px;
+    display: flex;    
+                }
 
 
 
 
-.botoes:hover, .bxtext {display: block;
 
-    background-color: #747180;
-            
-                        }
 
 .bxtext {
    
     background-color:#b3aec4; 
-    height: 200px;
-    width: 200px;
+   
         }
 
 
+.botoes:hover {background-color: #797683;}        
 .botoes {
 
     color:  #b3aec4;
-    display: inline-flex;
+    display: block;
     align-items: center;
     width: 50%; 
     margin: 2px;
