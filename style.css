@@ -2,12 +2,23 @@
 
 body {
     
-    background-color: slategray;
+    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+
+    
     }
 
+.logsup {
+        display: inline; 
+        margin-left: -20px;    
+        padding-right: 15px;
+        }
 
+        ul {
+            margin: 0px;
+            padding: 0px;
+            }
 
     nav {
         
@@ -17,6 +28,7 @@ body {
         width: 100%;
         top: 0;
         left:0;
+        
         
         }
 
@@ -39,6 +51,8 @@ nav > p {display: none; }
         padding: 5px;
         margin: 0;
         width: 50%;
+    margin-left: 20px;
+
         }
 
 
@@ -68,6 +82,7 @@ li > a {
 .quem:hover > .quemp {display: block;}
 .objet:hover > .objetp {display: block;}
 .hist:hover > .histp {display: block;}
+
 
 
 
