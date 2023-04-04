@@ -1,122 +1,59 @@
 @charset "utf-8";
 
-body {
-    
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-
-    
+* {margin: 0px;
+   padding: 0px; 
+   
     }
 
-.logsup {
-        display: inline; 
-        margin-left: -20px;    
-        padding-right: 15px;
-        }
+body {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
 
-        ul {
-            margin: 0px;
-            padding: 0px;
-            }
+
+
+        
 
     nav {
-        
-        background-color: rgb(24, 23, 23);
+
+        background-color: #232020;
+        padding: 10px;
         color: white;
         
-        width: 100%;
-  
-        
+
         
         
         }
-
-nav > p {display: none; }
-
-.menusup > li > p {
-    display: none;
-    background-color: rgb(65, 65, 71);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-    text-align: justify;
-    text-indent: 1.5em;
-                    }
-
-                   
- .menusup {
-        list-style: none;
-        display: flex;
-        padding: 5px;
-        margin: 0;
-        width: 50%;
-    margin-left: 20px;
-
-        }
-
-
-li > a {
-    text-decoration: none;
-    color: white;
-    text-decoration: none;
-        }
-
-
-.menusup> li {
-    border-radius: 5px;
-    margin-right: 5px;
-    padding: 10px;
-            }
-
-.menusup> li:hover  {
-            
-            background-color: #333;
-            
-
-                    }
+    
+#men {float: left;}
+#cont {float: right; margin-top: -20px;}
+.menulist { background-color: aqua;}
+.menulist:hover {background-color: #333;}
+.menulist > ul{display: none;}
 
 
 
 
-.quem:hover > .quemp {display: block;}
-.objet:hover > .objetp {display: block;}
-.hist:hover > .histp {display: block;}
+
+
+
+
 
 
 main {
     color: white; 
-    
     text-align: center;
     width: 90%;
     margin: auto;
-    border-radius: 10px;
-}
-
-main{width: 90%;
     background-color: #232020;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 10px; 
 }
 
 
 
-.img {
-    width: 60%;
-    padding: 20px;
-    border-radius: 30px;
-    }
 
-.title {
-text-align: center;
-margin-top: -400px;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-font-size: 50px;
 
-}
+
 
 
 
