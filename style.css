@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-* {margin: 0px;
-   padding: 0px; 
-   
+* {
+    margin: 0px;
+   padding: 0px;   
     }
 
 body {
@@ -17,24 +17,47 @@ body {
     nav {
 
         background-color: #232020;
-        padding: 10px;
         color: white;
-        
-
-        
-        
+        display: flex;
+        height: 50px;
         }
     
-#men {float: left;}
-#cont {float: right; margin-top: -20px;}
-.menulist { background-color: aqua;}
+#men {float: left; margin-top: 15px; margin-left: 10px;}
+
+#cont {float: right; margin-top: 15px; margin-right: 10px;}
+
+.menulist {
+    border-radius: 10px;
+    width: 50%;
+}
+
 .menulist:hover {background-color: #333;}
-.menulist > ul{display: none;}
+
+.menulist > ul {
+    
+    margin-top: 25px;
+    display: none; 
+    padding: 10px;
+    border-radius: 10px;
+
+    background-color: #232020
+}
+.menulist:hover > ul {display: block;}
+
+Li > a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {text-decoration: underline;}
 
 
+.contatolist {
+    border-radius: 10px;
+    
+    width: 50%;
+}
 
-
-
+.contatolist:hover {background-color: #333;}
 
 
 
