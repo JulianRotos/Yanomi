@@ -137,15 +137,14 @@ picture >img {width:100%; margin: 0px; padding: 0px;}
 
 .minheader {
     background-color: var(--cor4);
-    height: 30px;
-    margin-top: -15px;
+    height: 25px;
     min-width: 300px; 
     max-width: 1000px;
     box-shadow: 3px 0.5px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 .minheader > ul > li {display: inline; color: white; margin: 20px 20px;}
-.minheader > ul {padding-top: 11px; width: 100%; min-width: 300px; max-width: 1000px; }
+.minheader > ul {width: 100%; min-width: 300px; max-width: 1000px; }
 
 
 
